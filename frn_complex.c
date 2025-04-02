@@ -51,9 +51,9 @@ struct Complex real_div(struct Complex z1,float real)
     return res;
 }
 
-struct Complex conj(struct Complex z1)
+struct Complex conj(struct Complex z)
 {
-    struct Complex res = z1;
+    struct Complex res = z;
     res.im = res.im * -1.0;
     return res;
 }

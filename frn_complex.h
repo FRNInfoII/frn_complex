@@ -24,5 +24,6 @@ struct Complex real_mul(struct Complex z1,
 struct Complex real_div(struct Complex z1,
                         float real);
     
-struct Complex conj(struct Complex z1);
-      
+struct Complex conj(struct Complex z);
+
+void complex_print(struct Complex z);
