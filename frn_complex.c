@@ -1,4 +1,5 @@
 #include "frn_complex.h"
+#include <stdio.h>
 
 struct Complex add(struct Complex z1,
                    struct Complex z2)
@@ -56,4 +57,9 @@ struct Complex conj(struct Complex z)
     struct Complex res = z;
     res.im = res.im * -1.0;
     return res;
+}
+
+void complex_print(struct Complex z)
+{
+    printf("%f + j%f\n",z.re,z.im);
 }
