@@ -19,10 +19,10 @@ struct Complex div(struct Complex z1,
                    struct Complex z2);
 
 struct Complex real_mul(struct Complex z1,
-                        double scalar);
+                        float real);
 
 struct Complex real_div(struct Complex z1,
-                        double scalar);
+                        float real);
     
 struct Complex conj(struct Complex z1);
       
